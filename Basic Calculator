@@ -1,0 +1,20 @@
+first = input("enter the first number")
+operator = input("input your opearator")
+second = input("enter your second operator")
+
+first = int(first)
+second = int(second)
+
+if operator =="+":
+    print(first + second)
+elif operator =='-':
+    print(first - second)
+elif operator =='*':
+    print(first * second)
+elif operator =='/':
+    print(first / second)
+elif operator =='%':
+    print(first % second)
+else:
+    print("Invalid Operator entered by the user ")        
+ 
